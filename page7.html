@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>page7</title>
+<link href="page7.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('images/1.png')">
+<div class="grid-container">
+	<div class="grid-item"><img src="images/IMG_3747.jpg" width="1170" height="1549" alt=""/></div>
+	<div class="grid-item"><img src="images/IMG_3746 3.jpg" width="1170" height="1507" alt=""/></div>
+	<div class="grid-item"><img src="images/IMG_3745.jpg" width="1170" height="1322" alt=""/></div>
+	<div class="grid-item"><img src="images/IMG_3748.jpg" width="1170" height="1549" alt=""/></div>
+	<div class="grid-item"><img src="images/IMG_3749.jpg" width="1170" height="1352" alt=""/></div>
+	<div class="grid-item"><img src="images/IMG_3750.jpg" width="1170" height="1383" alt=""/></div>
+	<div class="grid-item"><img src="images/IMG_3751 2.jpg" width="1170" height="1266" alt=""/></div>
+	<div class="grid-item"><img src="images/IMG_3752 2.jpg" width="1170" height="1226" alt=""/></div>
+	<div class="grid-item"><img src="images/IMG_3753 2.jpg" width="1170" height="1262" alt=""/></div>
+	<div class="grid-item"><img src="images/IMG_3754 2.jpg" width="1170" height="1197" alt=""/></div>
+	<div class="grid-item"><img src="images/IMG_3755 3.jpg" width="1170" height="1217" alt=""/></div>
+	<div class="grid-item"><img src="images/IMG_3756.jpg" width="1170" height="1447" alt=""/></div>
+	<div class="grid-item"><img src="images/IMG_3757 2.jpg" width="1170" height="1401" alt=""/></div>
+	<div class="grid-item"><img src="images/IMG_3758 2.jpg" width="1170" height="1267" alt=""/></div>
+	<div class="grid-item"><img src="images/IMG_3759 3.jpg" width="1170" height="1456" alt=""/></div>
+	<div class="grid-item"><a href="page8.html"><img src="images/IMG_3760 3.jpg" alt="" width="1170" height="1403" id="Image1" onMouseOver="MM_swapImage('Image1','','images/1.png',1)" onMouseOut="MM_swapImgRestore()"/></a></div>
+	<div class="grid-item"><img src="images/IMG_3761 2.jpg" width="1170" height="1316" alt=""/></div>
+	<div class="grid-item"><img src="images/IMG_4040 2.jpg" width="1170" height="1483" alt=""/></div>
+</div>
+</body>
+</html>
